@@ -2,6 +2,7 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import pages.PracticeFormPage;
 
@@ -17,6 +18,7 @@ public class PracticeFormTest extends TestBase {
     }
 
     @Test
+    @Disabled
     void negativeFormTest() {
         practiceFormPage.openPage();
         practiceFormPage.fillData();
