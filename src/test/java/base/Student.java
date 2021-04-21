@@ -11,7 +11,7 @@ public class Student {
             email = faker.internet().emailAddress(),
             mobile = faker.number().digits(10),
             address = faker.address().streetAddress(),
-            testFile = "tst.jpg",
+            testFile = "img/tst.jpg",
             gender = "Male",
             monthOfBirth = "0",
             yearOfBirth = "1987",
