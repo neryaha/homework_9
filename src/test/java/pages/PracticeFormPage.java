@@ -56,7 +56,7 @@ public class PracticeFormPage {
                 text("01 January," + student.yearOfBirth),
                 text(student.subject),
                 text(student.hobby),
-                text(student.testFile),
+                text("tst.jpg"),
                 text(student.address),
                 text(student.state + ' ' + student.city));
 
@@ -72,7 +72,7 @@ public class PracticeFormPage {
                 text("02 January," + student.yearOfBirth),
                 text(student.subject),
                 text(student.hobby),
-                text(student.testFile),
+                text("tst.jpg"),
                 text(student.address),
                 text(student.state + ' ' + student.city));
 
